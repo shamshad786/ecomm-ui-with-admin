@@ -1,0 +1,72 @@
+2:58:49 UI seconds se dekhna hai
+
+
+
+
+
+
+
+
+
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+import axios from 'axios';
+import { Publish } from '@material-ui/icons';
+import { useState } from 'react';
+
+import { LinearProgress } from '@material-ui/core';
+
+
+export default function Home() {
+
+  const [file,setFile] = useState(null);
+  const [progress, setProgress] = useState(0);
+
+  const config = {
+    headers: { 'content-type': 'multipart/form-data' },
+    onUploadProgress: (event) => {
+      console.log(`Current progress:`, Math.round((event.loaded * 100) / event.total));
+    //  setProgress( Math.round((event.loaded * 100) / event.total));
+     
+    },
+  };
+
+      const uploadImageHandler = async(e)=>{
+        e.preventDefault();
+
+        const data = new FormData();
+        const filename =  Date.now() + file.name;
+
+        //console.log('file name: ', filename)
+       // console.log('fileName: ', file.name);
+
+        data.append('name', filename);
+        data.append('file', file);
+       // newPost.photo = filename;
+
+        try{
+
+       const res =  await axios.post('/api/uploadimage', data, config);
+          console.log(res.data);
+        }catch(err){
+            console.log("Photo Upload error: ", err);
+        }
+      }
+  
+
+  return (
+    <div className=''>
+
+{file && (
+            <Image className="writeImg" src = {URL.createObjectURL(file)} width='200' height={'200'}   alt="postImg"/>
+            )}
+
+      <form onSubmit = {uploadImageHandler}>
+      <input type="file"  onChange={(e)=> setFile(e.target.files[0])} />
+      <button type='submit'>Upload</button>
+      </form>
+      <LinearProgress value={0}/>
+    </div>
+  )
+}

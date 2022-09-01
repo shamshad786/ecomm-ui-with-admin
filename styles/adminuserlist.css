@@ -1,0 +1,276 @@
+.userList{
+    flex: 4;
+}
+.userListUsers{
+    display: flex;
+    align-items: center;
+}
+
+.usernameProfile{
+    
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.userListuserName{
+    margin-left: 10px;
+}
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}
+
+/* Edit User Page Css Start */
+
+.EditUserList{
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.userShow{
+   flex: 1;
+   padding: 20px 
+}
+.userUpdate{
+   flex: 2;
+   padding: 20px; 
+   margin-left: 20px;
+}
+
+.userShowTop{
+    display: flex;
+    align-items: center;
+}
+
+.userShowProfilePic{
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.userShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.userShowUsername{
+    font-weight: 600;
+}
+.userShowUserTitle{
+    font-weight: 300;
+}
+.userShowBottom{
+    margin-top: 20px;
+
+}
+.userShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(162, 159, 159);
+}
+
+.userShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.userShowIcons{
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+
+.updateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem > label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.userUpdateInput{
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid gray;
+    height: 30px;
+}
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.uploadIcon{
+    margin-left: 20px;
+}
+.imageUpdateIcon{
+    cursor: pointer;
+}
+
+.userUpdateImg{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.userUpdateButton{
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    background-color: darkblue;
+    color: white;
+   font-weight: 600;
+   color: white; 
+}
+
+/* Edit User Page Css End */
+
+
+
+/* New User Page Css Start  */
+
+.newUser-main-container{
+  flex: 4;
+  padding: 20px;
+}
+
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUserItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newUserItem > label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+
+.newUserItem > input{
+    height: 30px;
+    padding: 10x;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.newUserGender > input{
+   margin-top: 15px;
+
+}
+
+.newUserGender > label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newUserSelect {
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.newUserCreate{
+    width: 150px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+/* New User Page Css End  */

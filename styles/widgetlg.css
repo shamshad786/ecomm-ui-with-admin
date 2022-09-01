@@ -1,0 +1,73 @@
+.widgetLg{
+    flex: 2;
+    padding: 20px;
+    height: 433px;
+    overflow-y: scroll;
+}
+
+.widgetLgTitle{
+    position: sticky;
+    top: -20px;
+    z-index: 3;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: white;
+    padding: 10px 0;
+}
+.widgetLgHead{
+    position: sticky;
+    top: 25px;
+    z-index: 2;
+    background-color: white;
+}
+
+.widgetLgButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.widgetLgButton.Approved{
+    background-color: #e5faf2 ;
+    color: #3bb077;
+  
+}
+.widgetLgButton.Declined{
+    background-color: #fff0f1;
+   color: #d95087;
+}
+.widgetLgButton.Pending{
+    background-color: #ebf1fe;
+   color: #2a7ade;
+}
+
+.widgetLgtable{
+    width: 100%;  
+    border-collapse: separate;
+    border-spacing: 20px; 
+}
+
+
+.customerProfile{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgetLgName{
+    margin-left: 10px;
+}
+.widgetLgDate, .widgetLgAmount{
+    font-weight: 300;
+}
+

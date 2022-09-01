@@ -1,0 +1,95 @@
+ .register-main-container-div{
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(0,128,128,0.7), rgba(0,128,128,0.2)), url('/images/register-bg.png') center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ }
+
+ .register-wrapper{
+     width: 40%;
+     padding: 20px;
+     background: rgba(255,255,255,0.4);
+     backdrop-filter: blur(10px);
+     border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+}
+
+ .register-heading-title-el{
+     font-size: 24px;
+     font-weight: 400;
+     font-family: 'Urbanist', sans-serif;
+ }
+
+ .register-login-selector{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 20px 0px;
+ }
+
+ .register-left-reg-div, .register-right-reg-div{
+     width: 100%;
+     text-align: center;
+     padding: 10px 0px;
+     cursor: pointer;
+     
+ }
+
+ .register-left-reg-btn, .register-right-log-btn{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+ }
+
+ .reg-active{
+     background-color: teal;
+     color: white;
+     
+ }
+
+
+ .register-form-div{
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .register-form-div input{
+     height: 40px;
+     margin-bottom: 20px;
+     padding: 10px;
+     font-family: 'Urbanist', sans-serif;
+     background: rgba(255,255,255,0.4);
+     backdrop-filter: blur(10px);
+     border: none;
+ }
+
+ .register-agreement{
+     font-size: 14px;
+     margin-bottom: 20px;
+     text-align: justify;
+     font-family: 'Urbanist', sans-serif;
+ }
+
+ .register-user-reg-btn{
+    font-family: 'Urbanist', sans-serif;
+     padding: 10px;
+     background-color: teal;
+     color: white;
+     font-size: 20px;
+     font-weight: 300;
+ }
+ .register-user-reg-btn:hover{
+     background-color: rgb(7, 170, 170);
+ }
+
+ .reg-log-forget-password{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(78, 77, 77);
+ }

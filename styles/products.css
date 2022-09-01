@@ -1,0 +1,122 @@
+
+
+.productlist-title{
+    font-family: 'Urbanist', sans-serif; 
+    margin-bottom: 20px;
+
+}
+.product-list-filter-container{
+   display: flex; 
+   justify-content: space-between; 
+   margin-bottom: 20px;
+   font-family: 'Urbanist', sans-serif; 
+}
+
+.productlist-selected-otpions{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.card-main-div{
+    cursor: pointer;
+}
+
+.category-filter-search-homepage-btn{
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.category-filter-search-homepage-btn:hover{
+    background-color: rgb(3, 173, 173);
+}
+
+.single-product-wrapper{
+    display: flex;
+    padding: 50px;
+  
+}
+
+.single-product-image-container{
+  margin: 20px;
+}
+
+.single-product-info-container{
+    padding: 20px;
+}
+
+.single-product-title{
+    margin-bottom: 20px;
+    font-family: 'Urbanist', sans-serif ;
+}
+/* .single-product-right-col{
+    background-color: white;
+} */
+.single-product-desc{
+    margin-bottom: 20px;
+    font-family: 'Urbanist', sans-serif ;
+    text-align: justify;
+}
+.single-product-ruppee{
+    font-size: 30px;
+}
+.single-product-filter-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 30px 0px;
+}
+
+.single-product-filter{
+    display: flex;
+    align-items: center;
+}
+
+.single-produt-filter-title{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0px 10px;
+}
+
+.single-product-add-container{
+    display: flex;
+    align-items: center;
+    width: 53%;
+    justify-content: space-between;
+}
+
+.single-product-amount-qty{
+    margin: 0px 10px;
+   padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 22px;
+}
+
+.single-product-add-btn{
+    padding: 12px;
+    font-weight: 500;
+    background-color: teal;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.single-product-add-btn:hover{
+    background-color: rgb(3, 174, 174);
+}

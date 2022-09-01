@@ -1,0 +1,155 @@
+.cart-wrapper-div {
+    padding-top: 20px;
+}
+.cart-title-el{
+    font-weight: 300;
+    font-family: 'Urbanist', sans-serif; 
+    text-align: center;
+}
+.cart-inner-left-div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-product-item-div{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.cart-total-wishlist-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-total-wishlist-div p{
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+    font-family: 'Urbanist', sans-serif; 
+}
+
+.cart-inner-left-div button{
+    padding: 10px;
+    font-family: 'Urbanist', sans-serif; 
+}
+
+.cart-product-item-div{
+    padding: 20px;
+}
+
+
+#cart-product-info-color{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.cart-div-product-info{
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.cart-div-product-info p{
+    margin-bottom: 20px;
+    font-family: 'Urbanist', sans-serif; 
+    font-size: 1rem;
+}
+
+#cart-product-delete{
+    color: tomato;
+    font-size: 30px !important;
+    cursor: pointer;
+}
+.cart-product-qty-price-div{
+    padding: 20px;
+}
+
+.cart-product-price-div p {
+    font-size: 30px;
+    margin: 40px 0px;
+    font-family: 'Urbanist', sans-serif; 
+    font-weight: 300;
+}
+
+.cart-top-middle-inner-left-item-div{
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.cart-top-middle-left-items-div{
+    height: 500px;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+
+}
+
+.cart-top-right-container-div{
+    margin-left: 20px;
+    background-color: white;
+    margin-top: 70px;
+}
+.checkout-right-inner-div{
+    padding: 20px;
+}
+
+.checkout-subdetail-and-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout-subdetail-and-price p {
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif; 
+    padding: 20px 0;
+}
+
+#checkout-heading{
+    font-family: 'Urbanist', sans-serif; 
+    font-weight: 300;
+}
+
+.checkout-subdetail-and-price h3 {
+    font-family: 'Urbanist', sans-serif; 
+
+    padding: 20px 0;
+}
+
+.cart-right-bottom-payment-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-cart-now-btn{
+    padding: 10px;
+      font-family: 'Urbanist', sans-serif; 
+}
+
+#order-now-btn{
+     padding: 10px;
+     background-color: teal;
+     color: white;
+     font-family: 'Urbanist', sans-serif;
+     border-radius:4px ;
+     -webkit-border-radius:4px ;
+     -moz-border-radius:4px ;
+     -ms-border-radius:4px ;
+     -o-border-radius:4px ;
+}
+
